@@ -1,0 +1,182 @@
+{
+  "users": [
+    {
+      "role": "patient",
+      "name": "John Doe",
+      "birthCertNumber": "87654321",
+      "password": "patient",
+      "dateOfBirth": "1990-01-01",
+      "age": 34,
+      "hospitalBorn": "Nairobi Hospital",
+      "medicalHistory": [
+        {
+          "date": "2024-01-01",
+          "sickness": "Flu",
+          "doctor": "Dr. Smith",
+          "hospital": "Kenyatta National Hospital",
+          "prescribedMedicine": "Medicine A",
+          "testResults": "Negative",
+          "feedback": {
+            "waitTime": 4,
+            "cleanliness": 5,
+            "etiquette": 5
+          }
+        },
+        {
+          "date": "2023-12-01",
+          "sickness": "Cold",
+          "doctor": "Dr. Johnson",
+          "hospital": "Nairobi Hospital",
+          "prescribedMedicine": "Medicine B",
+          "testResults": "Negative",
+          "feedback": {
+            "waitTime": 3,
+            "cleanliness": 4,
+            "etiquette": 4
+          }
+        },
+        {
+          "date": "2023-10-15",
+          "sickness": "Headache",
+          "doctor": "Dr. Brown",
+          "hospital": "Nairobi Hospital",
+          "prescribedMedicine": "Medicine C",
+          "testResults": "Negative",
+          "feedback": {
+            "waitTime": 5,
+            "cleanliness": 5,
+            "etiquette": 5
+          }
+        },
+        {
+          "date": "2023-08-20",
+          "sickness": "Stomach Ache",
+          "doctor": "Dr. White",
+          "hospital": "Aga Khan Hospital",
+          "prescribedMedicine": "Medicine D",
+          "testResults": "Negative",
+          "feedback": {
+            "waitTime": 2,
+            "cleanliness": 3,
+            "etiquette": 3
+          }
+        },
+        {
+          "date": "2023-06-05",
+          "sickness": "Allergy",
+          "doctor": "Dr. Clark",
+          "hospital": "Nairobi Hospital",
+          "prescribedMedicine": "Medicine E",
+          "testResults": "Positive",
+          "feedback": {
+            "waitTime": 4,
+            "cleanliness": 4,
+            "etiquette": 4
+          }
+        }
+      ],
+      "image": "https://via.placeholder.com/150",
+      "id": "b465"
+    },
+    {
+      "role": "patient",
+      "name": "Jane Doe",
+      "birthCertNumber": "87654322",
+      "password": "patient",
+      "dateOfBirth": "1992-05-15",
+      "age": 32,
+      "hospitalBorn": "Aga Khan Hospital",
+      "medicalHistory": [
+        {
+          "date": "2024-02-01",
+          "sickness": "Headache",
+          "doctor": "Dr. Brown",
+          "hospital": "Aga Khan Hospital",
+          "prescribedMedicine": "Medicine C",
+          "testResults": "Negative",
+          "feedback": {
+            "waitTime": 5,
+            "cleanliness": 5,
+            "etiquette": 5
+          }
+        },
+        {
+          "date": "2023-11-21",
+          "sickness": "Fever",
+          "doctor": "Dr. Clark",
+          "hospital": "Nairobi Hospital",
+          "prescribedMedicine": "Medicine D",
+          "testResults": "Positive",
+          "feedback": {
+            "waitTime": 2,
+            "cleanliness": 3,
+            "etiquette": 3
+          }
+        },
+        {
+          "date": "2023-09-10",
+          "sickness": "Back Pain",
+          "doctor": "Dr. Green",
+          "hospital": "Kenyatta National Hospital",
+          "prescribedMedicine": "Medicine F",
+          "testResults": "Negative",
+          "feedback": {
+            "waitTime": 4,
+            "cleanliness": 4,
+            "etiquette": 4
+          }
+        },
+        {
+          "date": "2023-07-25",
+          "sickness": "Cough",
+          "doctor": "Dr. Smith",
+          "hospital": "Aga Khan Hospital",
+          "prescribedMedicine": "Medicine G",
+          "testResults": "Negative",
+          "feedback": {
+            "waitTime": 3,
+            "cleanliness": 4,
+            "etiquette": 4
+          }
+        },
+        {
+          "date": "2023-05-10",
+          "sickness": "Flu",
+          "doctor": "Dr. White",
+          "hospital": "Nairobi Hospital",
+          "prescribedMedicine": "Medicine H",
+          "testResults": "Positive",
+          "feedback": {
+            "waitTime": 5,
+            "cleanliness": 5,
+            "etiquette": 5
+          }
+        }
+      ],
+      "image": "https://via.placeholder.com/150",
+      "id": "208c"
+    },
+    {
+      "role": "doctor",
+      "medicalID": "12345678",
+      "password": "doctor",
+      "name": "Dr. Smith",
+      "id": "409a"
+    },
+    {
+      "role": "admin",
+      "username": "admin",
+      "password": "admin",
+      "id": "13c8"
+    },
+    {
+      "id": "78f6",
+      "role": "Doctor",
+      "name": "Dr. Kariuki",
+      "birthCertNumber": "",
+      "medicalID": "32452582",
+      "username": "admin",
+      "password": "admin"
+    }
+  ]
+}
